@@ -1,0 +1,60 @@
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* X-Large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  :root {
+    --pt70: 60px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --pt70: 50px;
+  }
+}
+
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    --pt70: 45px;
+    --mb40: 30px
+  }
+}
+
+/* x-small devices (portrait phones, 320px to 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  :root {
+    --pt70: 45px;
+    --mb40: 30px
+  }
+
+  .banner_part {
+    padding: 50px 0px;
+    background-position: left center;
+    background-size: unset;
+  }
+
+  .banner_content .btn_group a {
+    width: 30%;
+  }
+
+  .banner_content h2 {
+    font-size: 30px;
+  }
+
+  .banner_content h1 {
+    font-size: 35px;
+  }
+
+  .banner_content p {
+    font-size: 15px;
+    padding: 20px 0px 25px;
+  }
+}
